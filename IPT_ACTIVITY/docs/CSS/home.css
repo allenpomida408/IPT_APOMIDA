@@ -1,0 +1,135 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: transparent;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    color: #ffd700;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+    color: #ffd700;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #fff;
+    color: #111;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.text-content .highlight {
+    color: #ffd700;
+}
+
+.text-content h2 {
+    font-size: 2rem;
+    margin: 10px 0 20px;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.hire-button {
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.hire-button:hover {
+    background-color: #fff;
+}
+
+/* Image Content */
+.image-content {
+    flex: 1;
+    text-align: right;
+}
+
+.image-content img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+    
